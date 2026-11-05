@@ -1,0 +1,112 @@
+{
+  "GeneratedAt": "2026-11-03T21:28:06.696339+00:00",
+  "ProjectPath": ".",
+  "MinimumCveSeverity": "high",
+  "Summary": {
+    "TotalFindings": 7,
+    "CveCount": 4,
+    "CweCount": 3,
+    "BySeverity": {
+      "mandatory": 4,
+      "optional": 2,
+      "potential": 1
+    },
+    "ByCategory": {
+      "CVE": 4,
+      "Credentials & Secrets": 3
+    },
+    "TotalRulesAssessed": 59,
+    "RulesPassed": 56
+  },
+  "CveFindings": [
+    {
+      "Id": "CVE-2026-106110",
+      "Name": "ImageSharp: TIFF CCITT T4 encoder can write past its compressed output buffer",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-106110](https://github.com/advisories/GHSA-j9gm-c75j-xc9q): ImageSharp: TIFF CCITT T4 encoder can write past its compressed output buffer\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading.",
+      "Files": [
+        "PhotoAlbum/PhotoAlbum.csproj:16"
+      ],
+      "Explanation": "[CVE-2026-106110](https://github.com/advisories/GHSA-j9gm-c75j-xc9q): ImageSharp: TIFF CCITT T4 encoder can write past its compressed output buffer\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading."
+    },
+    {
+      "Id": "CVE-2026-106113",
+      "Name": "ImageSharp: HistogramEqualization uses an unvalidated luminance as an unchecked histogram index",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-106113](https://github.com/advisories/GHSA-j3p4-wp97-rph4): ImageSharp: HistogramEqualization uses an unvalidated luminance as an unchecked histogram index\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading.",
+      "Files": [
+        "PhotoAlbum/PhotoAlbum.csproj:16"
+      ],
+      "Explanation": "[CVE-2026-106113](https://github.com/advisories/GHSA-j3p4-wp97-rph4): ImageSharp: HistogramEqualization uses an unvalidated luminance as an unchecked histogram index\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading."
+    },
+    {
+      "Id": "CVE-2026-106115",
+      "Name": "ImageSharp: TIFF CCITT T6 encoder writes beyond an undersized output buffer",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-106115](https://github.com/advisories/GHSA-jjfr-hcj7-qf5w): ImageSharp: TIFF CCITT T6 encoder writes beyond an undersized output buffer\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.1.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading.",
+      "Files": [
+        "PhotoAlbum/PhotoAlbum.csproj:16"
+      ],
+      "Explanation": "[CVE-2026-106115](https://github.com/advisories/GHSA-jjfr-hcj7-qf5w): ImageSharp: TIFF CCITT T6 encoder writes beyond an undersized output buffer\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 2.1.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading."
+    },
+    {
+      "Id": "CVE-2026-106118",
+      "Name": "ImageSharp: Tiled fax TIFF: tile buffer sized by TileWidth but fax decompressor writes scanlines of ImageWidth \u2014 heap OOB write",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-106118](https://github.com/advisories/GHSA-v76p-62qx-wwq2): ImageSharp: Tiled fax TIFF: tile buffer sized by TileWidth but fax decompressor writes scanlines of ImageWidth \u2014 heap OOB write\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 3.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading.",
+      "Files": [
+        "PhotoAlbum/PhotoAlbum.csproj:16"
+      ],
+      "Explanation": "[CVE-2026-106118](https://github.com/advisories/GHSA-v76p-62qx-wwq2): ImageSharp: Tiled fax TIFF: tile buffer sized by TileWidth but fax decompressor writes scanlines of ImageWidth \u2014 heap OOB write\n\nSeverity: HIGH\n\nAffected dependencies:\n  - SixLabors.ImageSharp:3.1.11 (declared at PhotoAlbum/PhotoAlbum.csproj:16; transitive in PhotoAlbum.Tests/PhotoAlbum.Tests.csproj; resolved inventory: PhotoAlbum.Tests/obj/project.assets.json (not an explicit project declaration)); affected range: >= 3.0.0, < 3.2.0\n\nRecommended fix:\n  - Upgrade SixLabors.ImageSharp to 3.2.0 or later within the applicable supported release line.\n\nDependency inventory match only; application-level exploitability was not tested. Patched-version recommendations use structured GitHub advisory metadata; verify current vendor guidance before upgrading."
+    }
+  ],
+  "CweFindings": [
+    {
+      "Id": "CWE-259",
+      "Name": "Use of Hard-coded Password",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
+      "Files": [
+        "infra/main.bicep:59",
+        "infra/main.bicep:65-68"
+      ],
+      "Explanation": "SQL provisioning derives the administrator password from a source-defined literal template and deterministic uniqueString(resource-group ID, environment name). The resulting credential is reproducible from deployment metadata and source rather than secret random input; the credential value is intentionally not reproduced."
+    },
+    {
+      "Id": "CWE-778",
+      "Name": "Insufficient Logging",
+      "Category": "Credentials & Secrets",
+      "Severity": "potential",
+      "StoryPoint": 3,
+      "Description": "When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
+      "Files": [
+        "PhotoAlbum/Pages/Login.cshtml.cs:40-58",
+        "PhotoAlbum/appsettings.json:16-20"
+      ],
+      "Explanation": "LoginModel.OnPostAsync returns failed authentication results without recording an application security event; the model has no logger or audit integration. Default application configuration suppresses ASP.NET Core informational messages. This is a confirmed logging weakness, not an independently exploitable vulnerability; external monitoring and deployed logging overrides were not verified."
+    },
+    {
+      "Id": "CWE-798",
+      "Name": "Use of Hard-coded Credentials",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
+      "Files": [
+        "infra/main.bicep:59",
+        "infra/main.bicep:65-68"
+      ],
+      "Explanation": "SQL administrator provisioning consumes a credential constructed from a code-defined literal template and deterministic deployment identifiers. A reader of the source with resource-group and environment metadata can reconstruct it. Credential values are withheld."
+    }
+  ]
+}

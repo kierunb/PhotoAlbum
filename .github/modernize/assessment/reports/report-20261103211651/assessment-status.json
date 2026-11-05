@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-11-03T21:28:06.696339+00:00",
+  "coreAssessment": {
+    "status": "completed_with_warnings",
+    "tool": "dotnet-appcat",
+    "version": "1.0.1127",
+    "projects": 2,
+    "issues": 8,
+    "incidents": 28,
+    "privacyMode": "Restricted",
+    "warnings": [
+      "AppCAT emitted \"Error: Msbuild was not found.\" for both projects on Linux. It still produced an analysis report; treat results as potentially incomplete and verify with a fully supported build environment."
+    ]
+  },
+  "dotnetUpgradeAssessment": {
+    "status": "blocked",
+    "targetFramework": "net10.0",
+    "inputMode": "solution",
+    "solution": "PhotoAlbum.sln",
+    "missingTools": [
+      "get_state",
+      "get_scenarios",
+      "initialize_scenario",
+      "generate_dotnet_upgrade_assessment"
+    ],
+    "reason": "Required MCP tools unavailable. Skill requires stopping without manual or alternative analysis. No upgrade assessment or scenario files generated."
+  },
+  "securityAssessment": {
+    "status": "completed",
+    "cveMinimumSeverity": "high",
+    "uniqueDependencyCoordinates": 119,
+    "rawCveFindings": 6,
+    "includedCveFindings": 4,
+    "cweRulesAssessed": 59,
+    "cweFindings": 3,
+    "notes": [
+      "All six CWE skills executed sequentially in the requested order.",
+      "Assessment only: no production code or dependency changes.",
+      "Static review only; dependency reachability and live deployment security not tested.",
+      "Raw security results are retained in the versioned security subdirectory."
+    ]
+  }
+}
